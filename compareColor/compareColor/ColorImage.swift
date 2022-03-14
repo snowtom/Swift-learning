@@ -9,9 +9,12 @@ import SwiftUI
 
 struct ColorImage: View {
     var body: some View {
-        Circle()
-            .fill(Color.blue)
+        VStack {
+            Circle()
+                .fill(Color.blue)
             .padding()
+        Text("R: ??? G: ??? B: ???")
+        }
     }
 }
 
